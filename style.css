@@ -1,0 +1,38 @@
+h1 {
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+  font-weight: bold;
+}
+#second-page {
+  display: none;
+}
+.status {
+  margin: 20px;
+  padding: 50px;
+  color: white;
+  border-radius: 20px;
+}
+.deposit {
+  background-color: slateblue;
+}
+.withdraw {
+  background-color: lightsalmon;
+}
+.balance {
+  background-color: orange;
+}
+.input-amount {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 40px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+#depositBtn, #withdrawBtn {
+  margin-top: 20px;
+}
+#input-area1, #input-area2, #secondAlert {
+  display: none;
+  color: red;
+
+}
